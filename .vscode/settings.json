@@ -22,6 +22,19 @@
       "name": "postgres1",
       "database": "gym",
       "username": "postgres"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "askForPassword": true,
+      "driver": "MySQL",
+      "name": "mysql2",
+      "database": "gym",
+      "username": "root"
     }
   ]
 }
